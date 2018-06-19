@@ -4,46 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="reset.css" type="text/css">
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
   <script src="jquery-2.2.4.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-  <link href="https://fonts.googleapis.com/css?family=Merienda+One|Quintessential|Poppins|Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merienda+One|Quintessential|Poppins|Montserrat|Marcellus+SC" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
   <title>SARAH KLEWIEC - WEB DEVELOPPEUSE</title>
 </head>
 <body>
-
   <section class="part_one">
-      <img src="sarah.jpg" alt="sarah photo" class="photo1">
     <div class="moi">
       <h1> Sarah Klewiec </h1>
-          <h2> WEB DEVELOPPEUSE </h2>
-            <input type="button" value="Qui suis-je?" class="who" href=".part_two">
-              <input type="button" value="Mon portfolio" class="what" href=".part_three">
-                <input type="button" value="Contactez-moi" class="call" href=".part_four">
+        <h2> WEB DEVELOPPEUSE </h2>
     </div>
   </section>
 
   <section class="part_two">
-    <div class="presentation">
-      <div class="title"> QUI SUIS-JE? </div>
-        <div class="paragraphe1"> Je suis, déterminée, autodidacte, super positive, orientée solutions. Passionnée de lecture, de développement personnel, j’aime me fixer de nouveaux objectifs, et tout mettre en oeuvre pour les atteindre.</div>
-          <div class="paragraphe2"> Mon parcours professionnel se résume principalement au helpdesk / services clientèle. C'est en travaillant à la coordination de campagnes d'appels, que j'ai découvert le développement web, j'ai donc décidé de me former dans ce domaine, en suivant des formations à distance chez Technofuturtic en html, css, php et javascript, ainsi qu’en me perfectionnant grâce à la formation BeCode Charleroi.</div>
-            <div class="paragraphe3"> Voici les outils que j’utilise: </div>
-    </div>
-    <div class="icones">
-      <ul class="list_icones">
-        <li> <img src="html5.png" alt="logo html"> </li>
-        <li> <img src="CSS3.png" alt="logo css"> </li>
-        <li> <img src="javascript.png" alt="logo javascript"> </li>
-        <li> <img src="php_mysql.png" alt="logo php"> </li>
-        <li> <img src="wordpress-logo-stacked-rgb.png" alt="logo wordpress"> </li>
-        <li> <img src="jquery.png" alt="logo jquery"> </li>
-        <li> <img src="react.png" alt="logo react"> </li>
-      </ul>
-    </div>
+    <div class="title"> QUI SUIS-JE? </div>
+      <div class="presentation">
+        <div class="paragraphe1">
+           Mon parcours professionnel se résume principalement au helpdesk / services clientèle. C'est en travaillant à la coordination de campagnes d'appels, que j'ai découvert le développement web, j'ai donc décidé de me former dans ce domaine, en suivant des formations à distance chez Technofuturtic en html, css, php et javascript, ainsi qu’en me perfectionnant grâce à la formation BeCode Charleroi.
+        </div>
+        <div class="paragraphe2">
+          Je suis, déterminée, autodidacte, super positive, orientée solutions. Passionnée de lecture, de développement personnel, j’aime me fixer de nouveaux objectifs, et tout mettre en oeuvre pour les atteindre.
+        </div>
+        <div class="paragraphe3">
+          Voici les outils que j’utilise:
+            <div class="icones">
+              <ul class="list_icones">
+                <li> <img src="css/images/html5.png" alt="logo html"> </li>
+                <li> <img src="css/images/CSS3.png" alt="logo css"> </li>
+                <li> <img src="css/images/javascript.png" alt="logo javascript"> </li>
+                <li> <img src="css/images/php_mysql.png" alt="logo php"> </li>
+                <li> <img src="css/images/wordpress-logo-stacked-rgb.png" alt="logo wordpress"> </li>
+                <li> <img src="css/images/jquery.png" alt="logo jquery"> </li>
+                <li> <img src="css/images/react.png" alt="logo react"> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="photo">
+            <img src="css/images/sarah.jpg" alt="photo de Sarah" class="sarah">
+          </div>
   </section>
 
   <section class="part_three">
@@ -51,7 +55,7 @@
       <div class="contenuthree">
         <div class="site1">
           <a href="https://todolist-sarah.000webhostapp.com/" target="blank">
-            <img src="todolist.png" alt="todolist" class="tl">
+            <img src="css/images/todolist.png" alt="todolist" class="tl">
               <div class="descr1">
                 <h4> TO-DO LIST <i class="far fa-hand-point-left"></i> </h4>
           </a>
@@ -62,7 +66,7 @@
         </div>
         <div class="site2">
           <a href="https://sarahmvc.000webhostapp.com/" target="blank">
-            <img src="didiermotte.png" alt="didiermotte" class="dm">
+            <img src="css/images/didiermotte.png" alt="didiermotte" class="dm">
               <div class="descr2">
                 <h4>DIDIER MOTTE <i class="far fa-hand-point-left"></i> </h4>
           </a>
@@ -80,7 +84,7 @@
           <form action="index.php" method="post">
             <div class="nomdiv">
               <label for="nom"> NOM: </label>
-              <input type="text" class="nom" name="nom"required>
+                <input type="text" class="nom" name="nom"required>
             </div>
             <div class="maildiv">
               <label for="mail"> MAIL: </label>
@@ -105,7 +109,6 @@
       </div>
   </section>
 
-  <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
-  <script type="text/javascript" src="app.js"> </script>
+  <script type="text/javascript" src="controls/app.js"> </script>
 </body>
 </html>

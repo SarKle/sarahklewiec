@@ -1,0 +1,660 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	height: 150%;
+}
+
+.part_one,.part_two,.part_three,.part_four{
+  transition: 1s ease-in-out ;
+	padding-top: 5em;
+	/* padding-bottom: 5em; */
+}
+
+.part_three, .part_four{
+	height: 50em;
+}
+
+.part_one{
+	opacity: 1;
+	padding-bottom: 20em;
+	background-image: url("images/ash-edmonds-510566-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:28em;
+}
+
+.moi{
+	padding-top: 3.5em;
+	line-height: 6em;
+	text-align: center;
+	color: #ffff;
+}
+
+h1{
+	font-family: 'Marcellus SC', serif;
+	font-size: 5em;
+}
+
+h2{
+	font-family: 'Merienda One', cursive;
+	font-size: 2em;
+}
+
+.presentation{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-left: 20em;
+	width: 80em;
+	line-height: 2em;
+}
+
+.title, .title2, .title3{
+	font-family: 'Marcellus SC', serif;
+	font-size: 2.5em;
+	opacity: 0;
+	margin-left: 5em;
+	margin-right: 5em;
+	margin-bottom: 1.5em;
+	text-align: center;
+}
+
+.title{
+	background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(242,87,218,1) 50%, rgba(255,255,255,1) 100%);
+}
+
+.title2{
+	background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(87,153,242,1) 50%, rgba(255,255,255,1) 100%);
+}
+
+.title3{
+	background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(242,57,67,1) 50%, rgba(255,255,255,1) 100%);
+}
+
+.paragraphe1, .paragraphe2, .paragraphe3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.25em;
+	opacity: 0;
+	width:25em;
+}
+
+.paragraphe3{
+	padding-top: 5em;
+}
+
+.sarah{
+	opacity: 0;
+	border-radius: 5%;
+}
+
+.icones{
+	opacity: 0;
+	border-radius: 5% 25%;
+	width:60%;
+	/* background-color: #1a237e; */
+	padding-top: 0.02em;
+	margin-top: 1.5em;
+}
+
+.list_icones li{
+	display: inline-block;
+}
+
+.contenuthree{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-left: 5em;
+	line-height: 2.5em;
+}
+
+.site1{
+	grid-column-start: 1;
+}
+
+.site2{
+	grid-column-start: 2;
+}
+
+a, a:link{
+	border: solid 1px transparent;
+}
+a:visited{
+	border: solid 1px transparent;
+}
+
+.descr1{
+	grid-column-start: 2;
+}
+
+.dm{
+	grid-column-start: 1;
+}
+
+.descr2{
+	grid-column-start: 2;
+}
+
+.description1,.description2{
+	visibility: hidden;
+}
+
+.site1,.site2{
+	opacity: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.25em;
+	width: 25em;
+	/* color: #ffff; */
+}
+
+.site1{
+	padding-left: 10em;
+}
+
+h4{
+	height: 2em;
+	margin: 0;
+}
+
+.part_four{
+	margin-bottom: 8em;
+}
+
+.contenufour{
+	margin-left: 10em;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.formulaire{
+	grid-column-start: 1;
+	opacity: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.25em;
+	width: 28em;
+	height: 15em;
+	opacity: 0;
+	margin-top: 2em;
+	padding: 2em;
+	/* color: #1a237e; */
+}
+
+.nom{
+	width: 20em;
+	margin-left: 2em;
+}
+
+.mail{
+	width: 20em;
+	margin-left: 2em;
+	margin-top: 2em;
+}
+
+.messagediv{
+	margin-top: 2em;
+}
+
+.contenumess{
+	width: 34em;
+	height: 12em;
+	margin-top: 1.5em;
+	resize: none;
+}
+
+.reseaux{
+	visibility: hidden;
+	grid-column-start: 2;
+	margin-top: 5em;
+	margin-left: 7em;
+	word-spacing: 8em;
+	line-height: 5em;
+}
+
+.fab,.fas{
+	color: black;
+	text-shadow: 0.03em 0.03em 0.03em #1a237e;
+}
+
+.liste_reseaux li{
+	list-style-type:none;
+}
+
+.envoi{
+	font-family: 'Marcellus SC',serif;
+	font-size: 1em;
+	width: 5em;
+	height: 2em;
+	cursor:pointer;
+	margin-top: 2em;
+}
+
+a{
+	/* color: #1a237e; */
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:visited{
+	text-decoration: none;
+}
+
+
+
+
+
+
+/*CLASSES ANIMATIONS*/
+/*CLASSES ANIMATIONS*/
+/*CLASSES ANIMATIONS*/
+
+
+
+.apparition {
+	-webkit-animation: apparition 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: apparition 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.bounce {
+		-webkit-animation: bounce 1.5s both;
+		        animation: bounce 1.5s both;
+}
+
+.slit {
+	-webkit-animation: slit 1.5s ease-out 0.8s both;
+    animation: slit 1.5s ease-out 0.8s both;
+}
+
+.slit2 {
+	-webkit-animation: slit 1.5s ease-out 1.6s both;
+    animation: slit 1.5s ease-out 1.6s both;
+}
+
+.slit3 {
+	-webkit-animation: slit 1.5s ease-out 2.4s both;
+    animation: slit 1.5s ease-out 2.4s both;
+}
+
+.jello-horizontal {
+	-webkit-animation: jello-horizontal 0.9s both;
+	        animation: jello-horizontal 0.9s both;
+}
+
+
+	 @-webkit-keyframes part_one {
+ 	  0% {
+ 	    letter-spacing: -0.5em;
+ 	    opacity: 0;
+ 	  }
+ 	  40% {
+ 	    opacity: 0.6;
+ 	  }
+ 	  100% {
+ 	    opacity: 1;
+ 	  }
+ 	}
+ 	@keyframes part_one {
+ 	  0% {
+ 	    letter-spacing: -0.5em;
+ 	    opacity: 0;
+ 	  }
+ 	  40% {
+ 	    opacity: 0.6;
+ 	  }
+ 	  100% {
+ 	    opacity: 1;
+ 	  }
+ 	}
+
+
+	@-webkit-keyframes slit{
+	  0% {
+	    -webkit-transform: translateZ(-800px) rotate3d(-1, 1, 0, -90deg);
+	            transform: translateZ(-800px) rotate3d(-1, 1, 0, -90deg);
+	    -webkit-animation-timing-function: ease-in;
+	            animation-timing-function: ease-in;
+	    opacity: 0;
+	  }
+	  54% {
+	    -webkit-transform: translateZ(-160px) rotate3d(-1, 1, 0, -87deg);
+	            transform: translateZ(-160px) rotate3d(-1, 1, 0, -87deg);
+	    -webkit-animation-timing-function: ease-in-out;
+	            animation-timing-function: ease-in-out;
+	    opacity: 1;
+	  }
+	  100% {
+	    -webkit-transform: translateZ(0) rotate3d(-1, 1, 0, 0);
+	            transform: translateZ(0) rotate3d(-1, 1, 0, 0);
+	    -webkit-animation-timing-function: ease-out;
+	            animation-timing-function: ease-out;
+	  }
+	}
+	@keyframes slit {
+	  0% {
+	    -webkit-transform: translateZ(-800px) rotate3d(-1, 1, 0, -90deg);
+	            transform: translateZ(-800px) rotate3d(-1, 1, 0, -90deg);
+	    -webkit-animation-timing-function: ease-in;
+	            animation-timing-function: ease-in;
+	    opacity: 0;
+	  }
+	  54% {
+	    -webkit-transform: translateZ(-160px) rotate3d(-1, 1, 0, -87deg);
+	            transform: translateZ(-160px) rotate3d(-1, 1, 0, -87deg);
+	    -webkit-animation-timing-function: ease-in-out;
+	            animation-timing-function: ease-in-out;
+	    opacity: 1;
+	  }
+	  100% {
+	    -webkit-transform: translateZ(0) rotate3d(-1, 1, 0, 0);
+	            transform: translateZ(0) rotate3d(-1, 1, 0, 0);
+	    -webkit-animation-timing-function: ease-out;
+	            animation-timing-function: ease-out;
+	  }
+	}
+
+
+
+	/* ----------------------------------------------
+	 * Generated by Animista on 2018-5-28 12:23:44
+	 * w: http://animista.net, t: @cssanimista
+	 * ---------------------------------------------- */
+
+	/**
+	 * ----------------------------------------
+	 * animation bounce-in-top
+	 * ----------------------------------------
+	 */
+	@-webkit-keyframes bounce {
+	  0% {
+	    -webkit-transform: translateY(-500px);
+	            transform: translateY(-500px);
+	    -webkit-animation-timing-function: ease-in;
+	            animation-timing-function: ease-in;
+	    opacity: 0;
+	  }
+	  38% {
+	    -webkit-transform: translateY(0);
+	            transform: translateY(0);
+	    -webkit-animation-timing-function: ease-out;
+	            animation-timing-function: ease-out;
+	    opacity: 1;
+	  }
+	  55% {
+	    -webkit-transform: translateY(-65px);
+	            transform: translateY(-65px);
+	    -webkit-animation-timing-function: ease-in;
+	            animation-timing-function: ease-in;
+	  }
+	  72% {
+	    -webkit-transform: translateY(0);
+	            transform: translateY(0);
+	    -webkit-animation-timing-function: ease-out;
+	            animation-timing-function: ease-out;
+	  }
+	  81% {
+	    -webkit-transform: translateY(-28px);
+	            transform: translateY(-28px);
+	    -webkit-animation-timing-function: ease-in;
+	  }
+	  90% {
+	    -webkit-transform: translateY(0);
+	            transform: translateY(0);
+	    -webkit-animation-timing-function: ease-out;
+	            animation-timing-function: ease-out;
+	  }
+	  95% {
+	    -webkit-transform: translateY(-8px);
+	            transform: translateY(-8px);
+	    -webkit-animation-timing-function: ease-in;
+	            animation-timing-function: ease-in;
+	  }
+	  100% {
+	    -webkit-transform: translateY(0);
+	            transform: translateY(0);
+	    -webkit-animation-timing-function: ease-out;
+	            animation-timing-function: ease-out;
+	  }
+	}
+	@keyframes bounce {
+	  0% {
+	    -webkit-transform: translateY(-500px);
+	            transform: translateY(-500px);
+	    -webkit-animation-timing-function: ease-in;
+	            animation-timing-function: ease-in;
+	    opacity: 0;
+	  }
+	  38% {
+	    -webkit-transform: translateY(0);
+	            transform: translateY(0);
+	    -webkit-animation-timing-function: ease-out;
+	            animation-timing-function: ease-out;
+	    opacity: 1;
+	  }
+	  55% {
+	    -webkit-transform: translateY(-65px);
+	            transform: translateY(-65px);
+	    -webkit-animation-timing-function: ease-in;
+	            animation-timing-function: ease-in;
+	  }
+	  72% {
+	    -webkit-transform: translateY(0);
+	            transform: translateY(0);
+	    -webkit-animation-timing-function: ease-out;
+	            animation-timing-function: ease-out;
+	  }
+	  81% {
+	    -webkit-transform: translateY(-28px);
+	            transform: translateY(-28px);
+	    -webkit-animation-timing-function: ease-in;
+	  }
+	  90% {
+	    -webkit-transform: translateY(0);
+	            transform: translateY(0);
+	    -webkit-animation-timing-function: ease-out;
+	            animation-timing-function: ease-out;
+	  }
+	  95% {
+	    -webkit-transform: translateY(-8px);
+	            transform: translateY(-8px);
+	    -webkit-animation-timing-function: ease-in;
+	            animation-timing-function: ease-in;
+	  }
+	  100% {
+	    -webkit-transform: translateY(0);
+	            transform: translateY(0);
+	    -webkit-animation-timing-function: ease-out;
+	            animation-timing-function: ease-out;
+	  }
+	}
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2018-5-28 10:11:41
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-expand-fwd-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes apparition {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(-500px);
+            transform: translateZ(-700px) translateY(-500px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes apparition {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(-500px);
+            transform: translateZ(-700px) translateY(-500px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+ @-webkit-keyframes jello-horizontal {
+   0% {
+     -webkit-transform: scale3d(1, 1, 1);
+             transform: scale3d(1, 1, 1);
+   }
+   30% {
+     -webkit-transform: scale3d(1.25, 0.75, 1);
+             transform: scale3d(1.25, 0.75, 1);
+   }
+   40% {
+     -webkit-transform: scale3d(0.75, 1.25, 1);
+             transform: scale3d(0.75, 1.25, 1);
+   }
+   50% {
+     -webkit-transform: scale3d(1.15, 0.85, 1);
+             transform: scale3d(1.15, 0.85, 1);
+   }
+   65% {
+     -webkit-transform: scale3d(0.95, 1.05, 1);
+             transform: scale3d(0.95, 1.05, 1);
+   }
+   75% {
+     -webkit-transform: scale3d(1.05, 0.95, 1);
+             transform: scale3d(1.05, 0.95, 1);
+   }
+   100% {
+     -webkit-transform: scale3d(1, 1, 1);
+             transform: scale3d(1, 1, 1);
+   }
+ }
+ @keyframes jello-horizontal {
+   0% {
+     -webkit-transform: scale3d(1, 1, 1);
+             transform: scale3d(1, 1, 1);
+   }
+   30% {
+     -webkit-transform: scale3d(1.25, 0.75, 1);
+             transform: scale3d(1.25, 0.75, 1);
+   }
+   40% {
+     -webkit-transform: scale3d(0.75, 1.25, 1);
+             transform: scale3d(0.75, 1.25, 1);
+   }
+   50% {
+     -webkit-transform: scale3d(1.15, 0.85, 1);
+             transform: scale3d(1.15, 0.85, 1);
+   }
+   65% {
+     -webkit-transform: scale3d(0.95, 1.05, 1);
+             transform: scale3d(0.95, 1.05, 1);
+   }
+   75% {
+     -webkit-transform: scale3d(1.05, 0.95, 1);
+             transform: scale3d(1.05, 0.95, 1);
+   }
+   100% {
+     -webkit-transform: scale3d(1, 1, 1);
+             transform: scale3d(1, 1, 1);
+   }
+ }
+
+
+
+
+#scroll {
+    position:fixed;
+    right:0.65;
+    bottom:0.65;
+    cursor:pointer;
+    width:3.12em;
+    height:3.12em;
+    background-color:#3498db;
+    text-indent:-625em;
+    display:none;
+    -webkit-border-radius: 0.31em;
+    -moz-border-radius:0.31em;
+    border-radius:0.31;
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-0.5em;
+    margin-top:-0.75em;
+    height:0;
+    width:0;
+    border:0.5em solid transparent;
+    border-bottom-color:#ffffff
+}
+#scroll:hover {
+    background-color:#e74c3c;
+    opacity:1;
+    filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+
+/*ANIMATION BACKGROUND GRADIENT */
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+/*
+    font-family: 'Merienda One', cursive;
+    font-family: 'Quintessential', cursive;
+	  font-family: 'Montserrat', sans-serif;
+    font-family: 'Marcellus SC', serif;
+
+
+
+*/
