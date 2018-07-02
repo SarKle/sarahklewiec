@@ -1,18 +1,13 @@
 body{
-	margin: 0;
-	padding: 0;
-	font-size: 16px;
-	height: 150%;
+	margin: 0em 2em;
+	font-size: 1em;
+  box-sizing: border-box;
+	resize: vertical;
 }
 
 .part_one,.part_two,.part_three,.part_four{
   transition: 1s ease-in-out ;
-	padding-top: 5em;
-	/* padding-bottom: 5em; */
-}
-
-.part_three, .part_four{
-	height: 50em;
+	padding-left: 5em;
 }
 
 .part_one{
@@ -44,8 +39,7 @@ h2{
 .presentation{
 	display: grid;
 	grid-template-columns: 50% 50%;
-	margin-left: 20em;
-	width: 80em;
+	grid-column-gap: 1.5em;
 	line-height: 2em;
 }
 
@@ -53,10 +47,10 @@ h2{
 	font-family: 'Marcellus SC', serif;
 	font-size: 2.5em;
 	opacity: 0;
-	margin-left: 5em;
-	margin-right: 5em;
 	margin-bottom: 1.5em;
+	margin-top: 2em;
 	text-align: center;
+
 }
 
 .title{
@@ -76,9 +70,7 @@ h2{
 
 .paragraphe1, .paragraphe2, .paragraphe3{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1.25em;
 	opacity: 0;
-	width:25em;
 }
 
 .paragraphe3{
@@ -88,12 +80,14 @@ h2{
 .sarah{
 	opacity: 0;
 	border-radius: 5%;
+	max-width:100%;
+	height:auto;
 }
 
 .icones{
 	opacity: 0;
 	border-radius: 5% 25%;
-	width:60%;
+	/* width:60%; */
 	/* background-color: #1a237e; */
 	padding-top: 0.02em;
 	margin-top: 1.5em;
@@ -106,8 +100,13 @@ h2{
 .contenuthree{
 	display: grid;
 	grid-template-columns: 50% 50%;
-	margin-left: 5em;
 	line-height: 2.5em;
+	text-align: center;
+}
+
+.tl,.dm{
+	max-width:100%;
+	height:auto;
 }
 
 .site1{
@@ -121,6 +120,7 @@ h2{
 a, a:link{
 	border: solid 1px transparent;
 }
+
 a:visited{
 	border: solid 1px transparent;
 }
@@ -137,57 +137,38 @@ a:visited{
 	grid-column-start: 2;
 }
 
-.description1,.description2{
-	visibility: hidden;
+.description1, .description2{
+	opacity: 0;
 }
 
 .site1,.site2{
 	opacity: 0;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1.25em;
-	width: 25em;
-	/* color: #ffff; */
-}
-
-.site1{
-	padding-left: 10em;
 }
 
 h4{
 	height: 2em;
-	margin: 0;
-}
-
-.part_four{
-	margin-bottom: 8em;
 }
 
 .contenufour{
-	margin-left: 10em;
-	display: grid;
-	grid-template-columns: 50% 50%;
+	max-width: 100%;
 }
 
 .formulaire{
-	grid-column-start: 1;
 	opacity: 0;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1.25em;
-	width: 28em;
-	height: 15em;
-	opacity: 0;
+	font-size: 1.5em;
 	margin-top: 2em;
-	padding: 2em;
-	/* color: #1a237e; */
+	float: left;
 }
 
 .nom{
-	width: 20em;
+	width: 25em;
 	margin-left: 2em;
 }
 
 .mail{
-	width: 20em;
+	width: 25em;
 	margin-left: 2em;
 	margin-top: 2em;
 }
@@ -197,19 +178,17 @@ h4{
 }
 
 .contenumess{
-	width: 34em;
-	height: 12em;
+	width: 40em;
+	height: 15em;
 	margin-top: 1.5em;
-	resize: none;
 }
 
 .reseaux{
 	visibility: hidden;
-	grid-column-start: 2;
 	margin-top: 5em;
-	margin-left: 7em;
-	word-spacing: 8em;
+	padding-left: 15%;
 	line-height: 5em;
+	float: left;
 }
 
 .fab,.fas{

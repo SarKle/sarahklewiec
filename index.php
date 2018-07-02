@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/reset.css" type="text/css">
   <link rel="stylesheet" href="css/style.css" type="text/css">
-  <script src="jquery-2.2.4.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
   <link href="https://fonts.googleapis.com/css?family=Merienda+One|Quintessential|Poppins|Montserrat|Marcellus+SC" rel="stylesheet">
@@ -75,6 +74,15 @@
                   </div>
               </div>
         </div>
+        <!-- <div class="site3">
+            <img src="css/images/construction.png" alt="en construction" class="mp">
+              <div class="descr3">
+                <h4>MUSEE DE LA PHOTOGRAPHIE DE CHARLEROI <i class="far fa-hand-point-left"></i> </h4>
+                 <div class="description3">
+                    Refonte du site du musée de la photographie de Charleroi. Réalisation Wordpress
+                  </div>
+              </div>
+        </div> -->
   </section>
 
   <section class="part_four">
@@ -110,5 +118,8 @@
   </section>
 
   <script type="text/javascript" src="controls/app.js"> </script>
+  <script type="jquery" src="jquery-2.2.4.js"> </script>
+  
+
 </body>
 </html>

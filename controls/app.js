@@ -1,28 +1,31 @@
 let who=document.querySelector('.who'),
     what=document.querySelector('.what'),
-    call=document.querySelector('.call');
-    boutons=document.querySelector('.boutons');
-    presentation=document.querySelector('.presentation');
-    title=document.querySelector('.title');
-    sarah=document.querySelector('.sarah');
-    paragraphe1=document.querySelector('.paragraphe1');
-    paragraphe2=document.querySelector('.paragraphe2');
-    paragraphe3=document.querySelector('.paragraphe3');
-    icones=document.querySelector('.icones');
-    title2=document.querySelector('.title2');
-    site1=document.querySelector('.site1');
-    site2=document.querySelector('.site2');
-    title3=document.querySelector('.title3');
-    formulaire=document.querySelector('.formulaire');
-    reseaux=document.querySelector('.liste_reseaux');
-    part_two=document.querySelector('.part_two');
-    part_three=document.querySelector('.part_three');
-    part_four=document.querySelector('.part_four');
-    confirmation=document.querySelector('.envoi');
-    description1=document.querySelector('.description1');
-    description2=document.querySelector('.description2');
-    tl=document.querySelector('.tl');
+    call=document.querySelector('.call'),
+    boutons=document.querySelector('.boutons'),
+    presentation=document.querySelector('.presentation'),
+    title=document.querySelector('.title'),
+    sarah=document.querySelector('.sarah'),
+    paragraphe1=document.querySelector('.paragraphe1'),
+    paragraphe2=document.querySelector('.paragraphe2'),
+    paragraphe3=document.querySelector('.paragraphe3'),
+    icones=document.querySelector('.icones'),
+    title2=document.querySelector('.title2'),
+    site1=document.querySelector('.site1'),
+    site2=document.querySelector('.site2'),
+    // site3=document.querySelector('.site3');
+    title3=document.querySelector('.title3'),
+    formulaire=document.querySelector('.formulaire'),
+    reseaux=document.querySelector('.liste_reseaux'),
+    part_two=document.querySelector('.part_two'),
+    part_three=document.querySelector('.part_three'),
+    part_four=document.querySelector('.part_four'),
+    confirmation=document.querySelector('.envoi'),
+    description1=document.querySelector('.description1'),
+    description2=document.querySelector('.description2'),
+    // description3=document.querySelector('.description3');
+    tl=document.querySelector('.tl'),
     dm=document.querySelector('.dm');
+    // mp=document.querySelector('.mp');
 
 
 
@@ -68,7 +71,9 @@ window.onscroll = function () {
     site1.style.opacity="1";
     site1.classList.add('slit')
     site2.style.opacity="1";
-    site2.classList.add('slit2')
+    site2.classList.add('slit2');
+    // site3.style.opacity="1";
+    // site3.classList.add('slit2');
 
   if (amountScrolled(80)) {
     title3.style.opacity="1";
@@ -85,23 +90,32 @@ window.onscroll = function () {
 
 $(".site1").hover(function(){
     tl.classList.add("jello-horizontal");
-    description1.style.visibility="visible";
+    description1.style.opacity="1";
   },
 	function () {
     tl.classList.remove("jello-horizontal");
-    description1.style.visibility="hidden";
+    description1.style.opacity="0";
   }
-  );
+);
 
 $(".site2").hover(function(){
   dm.classList.add("jello-horizontal");
-  description2.style.visibility="visible";
+  description2.style.opacity="1";
   },
 	function () {
     dm.classList.remove("jello-horizontal");
-    description2.style.visibility="hidden";
+    description2.style.opacity="0";
   }
-  );
+);
+// $(".site3").hover(function(){
+//   mp.classList.add("jello-horizontal");
+//   description3.style.opacity="1";
+//   },
+// 	function () {
+//     mp.classList.remove("jello-horizontal");
+//     description3.style.opacity="0";
+//   }
+// );
 
   $(document).ready(function() {
     $('.who').click(function() {
