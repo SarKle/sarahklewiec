@@ -44,9 +44,6 @@
               </ul>
             </div>
           </div>
-          <div class="photo">
-            <img src="css/images/sarah.jpg" alt="photo de Sarah" class="sarah">
-          </div>
   </section>
 
   <section class="part_three">
@@ -59,7 +56,7 @@
                 <h4> TO-DO LIST <i class="far fa-hand-point-left"></i> </h4>
           </a>
                   <div class="description1">
-                    To-Do List, réalisée en HTML, CSS, PHP et MY SQL
+                    To-Do List, réalisée en HTML, CSS, PHP et MY SQL!
                   </div>
               </div>
         </div>
@@ -105,7 +102,6 @@
             <input type="submit" value="Envoyer" name="submit" class="envoi">
           </form>
           <?php include'form.php'; ?>
-
         </div>
         <div class="reseaux">
           <ul class="liste_reseaux">
@@ -114,12 +110,15 @@
             <li><a href="mailto:sarahklewiec@gmail.com"><i class="fas fa-envelope fa-4x"></i></a></li>
           </ul>
         </div>
+        <div class="photo">
+          <img src="css/images/sarah.jpg" alt="photo de Sarah" class="sarah">
+        </div>
       </div>
   </section>
-
+<span id="scroll"> </span>
   <script type="text/javascript" src="controls/app.js"> </script>
   <script type="jquery" src="jquery-2.2.4.js"> </script>
-  
+
 
 </body>
 </html>
